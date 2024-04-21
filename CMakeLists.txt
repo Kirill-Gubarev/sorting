@@ -3,3 +3,7 @@ PROJECT(sorting)
 ADD_EXECUTABLE(${PROJECT_NAME} 
 	src/main.cpp
 )
+TARGET_INCLUDE_DIRECTORIES(${PROJECT_NAME}
+	PRIVATE
+	src/include
+)
